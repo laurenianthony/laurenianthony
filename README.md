@@ -6,7 +6,7 @@ I'm interested in full-stack development and currently work with Java, C++, C#, 
 
 ## What I'm working on
 
-Currently developing an IoT-based web application for my capstone project, combining web development with hardware and real-world applications.
+Currently developing an IoT-based web application for my capstone project, combining web development with hardware and applications.
 
 ## What I'm learning
 
