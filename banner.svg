@@ -39,16 +39,13 @@
     <rect x="215" y="195" width="65" height="20" class="badge-bg" />
     <text x="225" y="210" class="badge-text">LARAVEL</text>
 
-    <!-- Right Column: Stats & Profile Visits -->
+    <!-- Right Column: Status & Info -->
     <line x1="500" y1="50" x2="500" y2="250" stroke="#30363d" stroke-dasharray="4" />
     <text x="530" y="70" class="command">lauren.exe</text>
     
-    <!-- Profile Visitor Count -->
-    <text x="530" y="110" class="text">profile visits:</text>
-    <image href="https://komarev.com/ghpvc/?username=laurenianthony&color=3fb950&style=flat-square&abbreviated=false" x="530" y="125" height="22" />
-    
-    <text x="530" y="175" class="text">mood: building &amp; coding</text>
-    <text x="530" y="200" class="text">status: <tspan fill="#3fb950">online</tspan></text>
+    <text x="530" y="110" class="text">mood: building &amp; coding</text>
+    <text x="530" y="140" class="text">status: <tspan fill="#3fb950">online</tspan></text>
+    <text x="530" y="170" class="text">profile visits: <tspan fill="#58a6ff">active tracker</tspan></text>
     <text x="530" y="230" class="title">v1.0.4 - ready</text>
 
     <!-- Bottom Bar -->
