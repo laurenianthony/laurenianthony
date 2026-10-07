@@ -1,0 +1,58 @@
+<svg width="800" height="280" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 12px; }
+        .header { fill: #161b22; }
+        .dot-red { fill: #ff5f56; }
+        .dot-yellow { fill: #ffbd2e; }
+        .dot-green { fill: #27c93f; }
+        .title { fill: #8b949e; font-family: monospace; font-size: 12px; }
+        .text { fill: #c9d1d9; font-family: monospace; font-size: 13px; }
+        .command { fill: #58a6ff; font-family: monospace; font-size: 13px; font-weight: bold; }
+        .badge-bg { fill: #21262d; rx: 4px; }
+        .badge-text { fill: #3fb950; font-family: monospace; font-size: 11px; }
+    </style>
+
+    <!-- Window Frame -->
+    <rect width="800" height="280" class="bg" />
+    <rect width="800" height="36" class="header" />
+    
+    <!-- Window Controls -->
+    <circle cx="22" cy="18" r="6" class="dot-red" />
+    <circle cx="42" cy="18" r="6" class="dot-yellow" />
+    <circle cx="62" cy="18" r="6" class="dot-green" />
+    <text x="370" y="22" class="title">profile.sh</text>
+
+    <!-- Left Column: Terminal Content -->
+    <text x="30" y="65" class="command">$ run profile.sh</text>
+    <text x="30" y="90" class="text">status: 3rd-year BSIT student @ Philippines</text>
+    
+    <text x="30" y="125" class="command">$ currently working on:</text>
+    <text x="45" y="145" class="text">→ IoT Capstone Project &amp; C# Web APIs</text>
+
+    <text x="30" y="180" class="command">$ tech stack:</text>
+    <rect x="30" y="195" width="55" height="20" class="badge-bg" />
+    <text x="42" y="210" class="badge-text">JAVA</text>
+    <rect x="95" y="195" width="45" height="20" class="badge-bg" />
+    <text x="107" y="210" class="badge-text">C#</text>
+    <rect x="150" y="195" width="55" height="20" class="badge-bg" />
+    <text x="162" y="210" class="badge-text">PHP</text>
+    <rect x="215" y="195" width="65" height="20" class="badge-bg" />
+    <text x="225" y="210" class="badge-text">LARAVEL</text>
+
+    <!-- Right Column: Stats & Profile Visits -->
+    <line x1="500" y1="50" x2="500" y2="250" stroke="#30363d" stroke-dasharray="4" />
+    <text x="530" y="70" class="command">lauren.exe</text>
+    
+    <!-- Profile Visitor Count -->
+    <text x="530" y="110" class="text">profile visits:</text>
+    <image href="https://komarev.com/ghpvc/?username=laurenianthony&color=3fb950&style=flat-square&abbreviated=false" x="530" y="125" height="22" />
+    
+    <text x="530" y="175" class="text">mood: building &amp; coding</text>
+    <text x="530" y="200" class="text">status: <tspan fill="#3fb950">online</tspan></text>
+    <text x="530" y="230" class="title">v1.0.4 - ready</text>
+
+    <!-- Bottom Bar -->
+    <rect x="30" y="255" width="120" height="4" fill="#ff5f56" rx="2" />
+    <rect x="160" y="255" width="120" height="4" fill="#ffbd2e" rx="2" />
+    <rect x="290" y="255" width="120" height="4" fill="#27c93f" rx="2" />
+</svg>
