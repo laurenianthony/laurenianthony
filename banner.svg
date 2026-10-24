@@ -24,7 +24,7 @@
 
     <!-- Left Column: Terminal Content -->
     <text x="30" y="65" class="command">$ run profile.sh</text>
-    <text x="30" y="90" class="text">status: 3rd-year BSIT student @ Philippines</text>
+    <text x="30" y="90" class="text">status: Junior BSIT student @ Philippines</text>
     
     <text x="30" y="125" class="command">$ currently working on:</text>
     <text x="45" y="145" class="text">→ IoT Capstone Project &amp; C# Web APIs</text>
